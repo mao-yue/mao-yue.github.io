@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+.z{
+	margin:0 auto;
+	text-align:left; 
+	width:1200px; 
+	height:600px;
+	position:relative;
+	top :0px;
+}
+.header {
+	height: 100px;
+	width: 1200px;
+	left: 0px;
+}
+.l{
+	background-image:url(l.gif);
+    width: 736px;
+	top: 0px;
+	margin-top:100px;
+	left: 0px;
+	right: 0px;
+	height: 500px;	
+	float:left;
+}
+.r1{
+	background-image:url(r1.gif);
+    width: 464px;
+	top: 0px;
+	margin-top:100px;
+	left: 0px;
+	right: 0px;
+	height: 500px;	
+	float:left;
+}
+.r2{
+	background-image:url(r2.gif);
+    width: 464px;
+	top: 100px;
+	left: 0px;
+	right: 0px;
+	height: 500px;	
+	float:left;
+	transition:opacity 0.5s;
+	-moz-transition:opacity 0.5s;
+	-webkit-transition:opacity 0.5s;
+	-o-transition:opacity 0.5s;
+}
+.r2:hover{
+	-moz-opacity:0;
+	-webkit-opacity: 0;
+	-o-opacity: 0;
+	opacity: 0;
+}
